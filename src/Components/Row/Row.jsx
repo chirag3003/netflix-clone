@@ -3,6 +3,7 @@ import RowStyle from "./Row.style";
 import { axios } from "../../Helpers/requests";
 import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Row({ title, fetchUrl, poster }) {
 	const [movies, setMovies] = useState([]); // To Store The Movies
@@ -48,7 +49,7 @@ function Row({ title, fetchUrl, poster }) {
 						//     className={'movie'}
 						//     key={index}
 						// >
-						<img
+						<LazyLoadImage
 							key={index}
 							onClick={() => handleClick(movie)}
 							className={poster ? "poster" : ""}
