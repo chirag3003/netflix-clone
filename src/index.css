@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;300;400&display=swap');
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@200;300;400&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
-  margin: 0;
-  font-family: 'Georama', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background:#111;
-  color:#fff;
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: "Georama", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #111;
+    color: #fff;
 }
-a{
-  text-decoration: inherit;
-  color: inherit;
+a {
+    text-decoration: inherit;
+    color: inherit;
 }
-
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
